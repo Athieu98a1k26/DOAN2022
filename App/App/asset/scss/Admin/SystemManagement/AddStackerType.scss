@@ -1,0 +1,19 @@
+.add_stacker_type {
+    &-form {
+        display: flex;
+        gap: 55px;
+    }
+    .list-checkbox {
+        display: flex;
+        gap: 25px;
+    }
+    .textarea {
+        margin: 0;
+    }
+    .tt {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 0;
+    }
+}

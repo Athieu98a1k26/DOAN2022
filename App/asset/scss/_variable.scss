@@ -1,0 +1,27 @@
+$colorBtn: #ffffff;
+$colorHome: #ffff;
+$borderRadius: 12px;
+$backgroundColorWarning: #ffff;
+$colorTextWarning: #a6192e;
+$backgroundColorHeader: #c31d36;
+$backgroundColorScanningImage: #5a5a5a;
+$colorTitleScanning: #3c3e43;
+$backgroundBodyFailed: #f7f5f5;
+$colorSuccess: #64c673;
+$colorTextBlack: #3c3e43;
+$backgroundScroll: #959497;
+$backgroundScrollLayout: #d1cfd0;
+$backgroundBtnChangeNumberMobile: rgba(255, 253, 253, 100%);
+$backgroundColorTableHeader: #3c3e43;
+$backgroundColorDashboard: #f7f5f5;
+$borderRadiusBtnAndInputAdmin: 6px;
+$boxShadowAdmin: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+$colorTextGray: #888888;
+$borderRadiusBoxAdmin: 15px;
+$boxShadownBoxAdmin: rgba(0, 0, 0, 0.04) 5.14px 6.13px 15px;
+$borderRadiusCheckBoxAdmin: 6px;
+@mixin btn-outline {
+    border: 1px solid $backgroundColorHeader;
+    color: $backgroundColorHeader;
+    background-color: $colorBtn;
+}

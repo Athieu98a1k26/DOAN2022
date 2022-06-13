@@ -1,0 +1,16 @@
+.general-content {
+    .btn-acknowledgement {
+        width: 100%;
+        display: flex;
+        gap: 29px;
+        &-left {
+            width: 100%;
+        }
+        &-right {
+            width: 100%;
+        }
+        .input-admin {
+            width: 100% !important;
+        }
+    }
+}

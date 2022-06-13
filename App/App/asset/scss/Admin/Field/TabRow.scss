@@ -1,0 +1,40 @@
+.tabs_row {
+    .tab_pane_row {
+        &-title {
+            ul {
+                display: flex;
+                justify-content: space-between;
+                margin: 0 0 29px;
+                position: relative;
+                li {
+                    text-transform: uppercase;
+                    transition: 0.2s;
+                    cursor: pointer;
+                    .title-box {
+                        padding: 0 0.2rem;
+                        p {
+                            font-size: 11px;
+                            padding: 0;
+                            margin: 0;
+                        }
+                    }
+                }
+                .title-active {
+                    .title-box {
+                        p {
+                            text-shadow: 0 0 0.65px #333, 0 0 0.65px #333;
+                        }
+                    }
+                }
+            }
+        }
+        &-content {
+            .tab-row {
+                display: none;
+            }
+            .tab-active {
+                display: block;
+            }
+        }
+    }
+}

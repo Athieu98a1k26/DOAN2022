@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>QUAN LY DAO TAO</title>
+    <base href="/" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="./cdn/materialdesignicons.min.css" /> -->
+    <!-- <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollbar/0.2.11/jquery.scrollbar.min.css" /> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/elfinder/2.1.40/css/elfinder.full.css" /> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/elfinder/2.1.40/css/theme.css" /> -->
+    <!-- <link rel="stylesheet" href="/libs/elfinder/themes/windows-10/css/theme.css" /> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+
+    <% for (var css in htmlWebpackPlugin.files.css) { %>
+        <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css[css] %>" />
+        <% } %>
+</head>
+
+<body data-ma-theme="orange">
+    <div id="root"></div>
+    <script src="./cdn/jquery-3.6.0.min.js"></script>
+    <!-- <script src="./cdn/signalr.js"></script> -->
+    <script src="./cdn/socket.io.js"></script>
+    <script>
+        if (localStorage.getItem("domainTestSocket")) {
+            let serverUrl = localStorage.getItem("domainTestSocket");
+            let socket = io(serverUrl);
+            console.log(socket);
+            socket.on("connect", () => {
+                socket.emit("vendor_message_send", {
+                    method: "cash_query_info",
+                });
+                console.log("connected");
+                localStorage.setItem("connectSocket", JSON.stringify(socket));
+                localStorage.setItem("connectSocket2", "12345");
+            });
+
+            socket.on("disconnect", () => {
+                localStorage.setItem("disconnectSocket", "disconnect");
+            });
+
+            socket.on("vendor_message_reply", (data) => {
+                console.log("vendor_message_reply", data);
+                localStorage.setItem("dataSocket", JSON.stringify(data));
+            });
+        }
+    </script>
+    <!-- <script src="./cdn/jquery-ui.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/elfinder/2.1.40/js/elfinder.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> -->
+    <!-- <script src="./cdn/bootstrap2.min.js"></script> -->
+    <!-- <script src="./cdn/bootstrap-notify.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery-scroll-lock@3.1.3/jquery-scrollLock.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollbar/0.2.11/jquery.scrollbar.min.js"></script> -->
+    <!-- <script src="https://cdn.tinymce.com/4/tinymce.min.js"></script> -->
+    <!-- <script>
+        window.netdataNoBootstrap = true;
+        window.netdataShowHelp = false;
+    </script> -->
+    <!-- <script src="/netdata/dashboard.js"></script> -->
+    <% for (var js in htmlWebpackPlugin.files.js) { %>
+        <script src="<%= htmlWebpackPlugin.files.js[js] %>"></script>
+        <% } %>
+</body>
+
+</html>

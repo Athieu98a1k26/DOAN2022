@@ -1,0 +1,265 @@
+@import "variable";
+.sms {
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    &-body {
+        width: 90.56%;
+        height: 68.63%;
+        position: absolute;
+        left: 50%;
+        top: 25.6%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: space-between;
+        &-left {
+            width: 60.72%;
+            &-input {
+                margin-top: 2%;
+                height: 22.45%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                &-title {
+                    font-size: 24px;
+                    display: flex;
+                    align-items: center;
+                    &-right {
+                        margin-left: 5%;
+                        font-size: 18px;
+                        font-style: italic;
+                    }
+                }
+                input {
+                    width: 100%;
+                    height: 70.59%;
+                    font-size: 24px;
+                    padding: 0 3.86% 0 3.86%;
+                    border-radius: $borderRadius;
+                    background-color: $backgroundBodyFailed;
+                    border: none;
+                }
+            }
+            .input-edit {
+                width: 100%;
+                height: 70.59%;
+                font-size: 24px;
+                padding: 0 3.86% 0 3.86%;
+                border-radius: $borderRadius;
+                background-color: $backgroundBodyFailed;
+                border: none;
+                display: flex;
+                align-items: center;
+                .number {
+                    padding: 3px 0;
+                    padding-right: 3.86%;
+                    border-right: 1px solid black;
+                    letter-spacing: 0.1rem;
+                }
+                input {}
+            }
+            &-check {
+                margin: 2% 0 3% 0;
+                height: 10.57%;
+                display: flex;
+                align-items: center;
+                .icon {
+                    width: 8.79%;
+                    height: 100%;
+                    margin-right: 3.4%;
+                    border-radius: $borderRadius;
+                    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    svg {
+                        width: 22px;
+                        height: 16px;
+                    }
+                }
+                &-text {
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+            }
+            &-err {
+                color: $colorTextWarning;
+                font-size: 18px;
+            }
+            &-terms {
+                max-height: 53.47%;
+                background-color: $backgroundBodyFailed;
+                overflow: hidden;
+                overflow-y: auto;
+                border-radius: $borderRadius;
+                padding: 3%;
+                &::-webkit-scrollbar {
+                    width: 9px;
+                    background-color: $backgroundScrollLayout;
+                    border-radius: 10px;
+                }
+                &::-webkit-scrollbar-thumb {
+                    border-radius: 10px;
+                    background-color: $backgroundScroll;
+                }
+                &-title {
+                    font-size: 20px;
+                    font-weight: 600;
+                    // font-size: 24px;
+                    // padding-left: 1%;
+                }
+                &-content {
+                    font-size: 18px;
+                }
+            }
+            &-otp {
+                height: 100%;
+                &-btn {
+                    margin-top: 2%;
+                    margin-bottom: 10%;
+                    width: 51%;
+                    height: 11.23%;
+                    button {
+                        .icon {
+                            width: 21.07px;
+                            height: 19.88px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-right: 2%;
+                            svg {
+                                width: inherit;
+                                height: inherit;
+                            }
+                        }
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100%;
+                        background-color: $backgroundBtnChangeNumberMobile;
+                        color: $backgroundColorHeader;
+                        font-size: 24px;
+                        box-shadow: rgba(0, 0, 0, 0.5) 0 3px 6px;
+                    }
+                }
+                &-text {
+                    margin-bottom: 5%;
+                    .text-big {
+                        font-size: 30px;
+                        font-weight: 600;
+                        // padding-left: 3%;
+                    }
+                    .text-small {
+                        font-size: 24px;
+                    }
+                }
+                &-input {
+                    display: flex;
+                    gap: 2%;
+                    height: 9.58%;
+                    .input {
+                        height: 100%;
+                        width: 7.99%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+                        background-color: white;
+                        border-radius: $borderRadius;
+                        font-size: 30px;
+                        font-weight: 600;
+                    }
+                    button {
+                        margin-left: 2%;
+                        font-size: 24px;
+                        width: 25.84%;
+                    }
+                }
+                &-err {
+                    color: $colorTextWarning;
+                    margin-top: 2%;
+                    font-size: 20px;
+                }
+                &-count {
+                    margin-top: 2%;
+                    font-size: 20px;
+                }
+            }
+        }
+        &-right {
+            width: 32.66%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            &-keyboard {
+                width: 100%;
+                height: 75.09%;
+            }
+            &-btn {
+                height: 16.84%;
+                button {
+                    height: 100%;
+                    font-size: 24px;
+                    width: 100%;
+                }
+            }
+            .sms-one-btn {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+            }
+        }
+        &-button {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            display: flex;
+            gap: 20px;
+            height: 100px;
+            button {
+                width: 350px;
+                height: 100%;
+                font-size: 24px;
+            }
+            // .btn-gray {
+            //     background-color: #888888;
+            //     color: white;
+            // }
+        }
+    }
+    &-btn {
+        width: 54.62%;
+        height: 11.67%;
+        position: absolute;
+        left: 50%;
+        top: 84.26%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 4.83%;
+        button {
+            width: 100%;
+            height: 100%;
+            font-size: 24px;
+            @include btn-outline;
+        }
+    }
+}
+
+.input-otp-err {
+    .input {
+        background-color: #fff4f5;
+    }
+}
+
+.sms-terms-maintain-consent {
+    height: 38.85% !important;
+    .sms-body-left-terms-title {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .sms-body-left-terms-content {
+        font-size: 16px;
+    }
+}

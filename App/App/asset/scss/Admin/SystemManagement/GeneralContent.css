@@ -1,0 +1,20 @@
+.general-content .btn-acknowledgement {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 29px;
+}
+
+.general-content .btn-acknowledgement-left {
+  width: 100%;
+}
+
+.general-content .btn-acknowledgement-right {
+  width: 100%;
+}
+
+.general-content .btn-acknowledgement .input-admin {
+  width: 100% !important;
+}
+/*# sourceMappingURL=GeneralContent.css.map */

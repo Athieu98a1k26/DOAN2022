@@ -1,0 +1,26 @@
+.utilisation_rate_home {
+    // background-color: blue;
+    display: flex;
+    gap: 80px;
+    &-chart {
+        width: 60.36%;
+    }
+    &-infor {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        &-box {
+            .text {
+                font-size: 16px;
+                font-weight: 600;
+            }
+            .detail {
+                position: relative;
+                top: -12px;
+                font-size: 43px;
+                font-weight: 600;
+                color: #f29500;
+            }
+        }
+    }
+}

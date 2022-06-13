@@ -1,0 +1,93 @@
+@import "../../variable";
+.table_pagination {
+    position: relative;
+    .gray {
+        color: gray;
+    }
+}
+
+.ant-pagination {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+.ant-pagination-options {
+    display: none !important;
+}
+
+.ant-pagination-item {
+    min-width: 25px !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    border-radius: 5px !important;
+    border: none !important;
+    a:hover {
+        color: black !important;
+    }
+}
+
+.ant-pagination-item-active {
+    background-color: $backgroundColorHeader !important;
+    a {
+        color: white !important;
+        &:hover {
+            color: white !important;
+        }
+    }
+}
+
+.ant-pagination-disabled .ant-pagination-item-link,
+.ant-pagination-disabled:hover .ant-pagination-item-link,
+.ant-pagination-disabled:focus-visible .ant-pagination-item-link {
+    cursor: default !important;
+}
+
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link {
+    border: none !important;
+    &:hover {
+        color: black !important;
+    }
+}
+
+.pagination_admin {
+    display: flex;
+    align-items: center;
+    &-prev {
+        cursor: pointer;
+        svg {
+            transform: rotate(90deg);
+        }
+    }
+    &-content {
+        ul {
+            display: flex;
+            align-items: center;
+            margin: 0 0.5rem;
+            li {
+                // padding: 0 1rem;
+                width: 25px;
+                height: 25px;
+                border-radius: 4px;
+                font-size: 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
+            .active {
+                background-color: $backgroundColorHeader;
+                color: white;
+            }
+        }
+    }
+    &-next {
+        cursor: pointer;
+        svg {
+            transform: rotate(-90deg);
+        }
+    }
+}

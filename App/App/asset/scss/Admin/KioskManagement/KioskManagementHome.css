@@ -1,0 +1,24 @@
+.kiosk_config-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.kiosk_config-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.kiosk_config .flex_gap {
+  max-width: 80%;
+}
+
+.kiosk_config .flex_gap .checkbox {
+  width: 150px;
+}
+/*# sourceMappingURL=KioskManagementHome.css.map */

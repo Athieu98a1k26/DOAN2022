@@ -1,0 +1,69 @@
+.table_admin_none_border {
+  position: relative;
+}
+
+.table_admin_none_border th {
+  text-align: left;
+  font-size: 14px !important;
+  font-weight: 600;
+  height: 30px;
+}
+
+.table_admin_none_border th p {
+  padding: 0;
+}
+
+.table_admin_none_border hr {
+  position: absolute;
+}
+
+.table_admin_none_border .total {
+  height: 70px;
+}
+
+.table_admin_none_border .total td:first-child {
+  font-weight: 700;
+}
+
+.table_admin_none_border tr {
+  height: 40px;
+}
+
+.table_admin_none_border tr td {
+  cursor: default;
+  font-size: 14px;
+}
+
+.table_admin_none_border tr td .date {
+  width: 152px;
+}
+
+.table_admin_none_border tr td u {
+  cursor: pointer;
+}
+
+.table_admin_none_border_scroll_row {
+  position: relative;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.table_admin_none_border_scroll_row::-webkit-scrollbar {
+  height: 7px;
+  background-color: #d1cfd0;
+  border-radius: 5px;
+}
+
+.table_admin_none_border_scroll_row::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #959497;
+}
+
+.table_admin_none_border_scroll_row table th {
+  font-size: 14px !important;
+}
+
+.table_admin_none_border_scroll_row table td {
+  font-size: 14px !important;
+}
+/*# sourceMappingURL=TableAdmonNoneBorder.css.map */

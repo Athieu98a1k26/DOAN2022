@@ -1,0 +1,74 @@
+.tabs_col {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 24px;
+}
+
+.tabs_col .tab_pane_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.tabs_col .tab_pane_col-title {
+  width: 12.19%;
+  height: 100%;
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.04) 5.14px 6.13px 15px;
+          box-shadow: rgba(0, 0, 0, 0.04) 5.14px 6.13px 15px;
+  padding-top: calc(63px - 16px);
+}
+
+.tabs_col .tab_pane_col-title ul {
+  padding: 0;
+}
+
+.tabs_col .tab_pane_col-title ul li {
+  height: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 7px;
+  cursor: pointer;
+}
+
+.tabs_col .tab_pane_col-title ul .title-active {
+  background-color: #fee6cb;
+  color: #fd9538;
+}
+
+.tabs_col .tab_pane_col-content {
+  padding: 26px 27px;
+}
+
+.tabs_col .tab_pane_col-content .content {
+  width: 495px;
+}
+
+.tabs_col .tab_pane_col-content .tab-col {
+  display: none;
+}
+
+.tabs_col .tab_pane_col-content .tab-active {
+  display: block;
+}
+
+.tabs_col .btn-cancel button {
+  border: 1px solid #c31d36;
+  color: #c31d36;
+  background-color: white;
+}
+
+.tabs_col .btn-save {
+  position: absolute;
+  top: 22px;
+  right: 186px;
+}
+/*# sourceMappingURL=TabCol.css.map */

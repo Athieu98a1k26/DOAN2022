@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,gBADY,CACZ,oBAAoB,CAAC;EACjB,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,IAAI;CAUZ;;AAdL,AAKQ,gBALQ,CAKP,yBAAK,CAAC;EACH,KAAK,EAAE,IAAI;CACd;;AAPT,AAQQ,gBARQ,CAQP,0BAAM,CAAC;EACJ,KAAK,EAAE,IAAI;CACd;;AAVT,AAWQ,gBAXQ,CACZ,oBAAoB,CAUhB,YAAY,CAAC;EACT,KAAK,EAAE,eAAe;CACzB",
+    "sources": [
+        "GeneralContent.scss"
+    ],
+    "names": [],
+    "file": "GeneralContent.css"
+}

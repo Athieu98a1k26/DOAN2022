@@ -1,0 +1,94 @@
+.change_language-display {
+  width: 77px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+  border-radius: 8px;
+  position: absolute;
+  top: 11px;
+  right: 46px;
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+.change_language-display-content {
+  position: absolute;
+  border-radius: 7px;
+  top: 105%;
+  background-color: white;
+  width: 100%;
+  left: 0;
+  padding: 5px 10px;
+  border: 1px solid rgba(128, 128, 128, 0.253);
+  z-index: 100;
+  display: none;
+}
+
+.change_language-display-content .item {
+  cursor: pointer;
+}
+
+.change_language-display-icon-language {
+  width: 10.95px;
+  height: 12.78px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.change_language-display-icon-language svg {
+  width: inherit;
+  height: inherit;
+}
+
+.change_language-display-icon-select {
+  width: 13.52px !important;
+  height: 6.87px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.change_language-display-icon-select svg {
+  width: inherit;
+  height: inherit;
+}
+
+.change_language-display-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.change_language .show {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
+.change_language .show-content {
+  display: block;
+}
+/*# sourceMappingURL=ChangeLanguage.css.map */

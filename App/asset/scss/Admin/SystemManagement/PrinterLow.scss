@@ -1,0 +1,21 @@
+.printer_low {
+    &-content {
+        display: flex;
+        gap: 68px;
+        &-contact {}
+        &-type {
+            .checkbox-printer {
+                display: flex;
+                gap: 34px;
+            }
+        }
+    }
+    .stacker-input {
+        display: flex;
+        align-items: center;
+        .input-admin {
+            width: 66px !important;
+            margin-right: 10px !important;
+        }
+    }
+}

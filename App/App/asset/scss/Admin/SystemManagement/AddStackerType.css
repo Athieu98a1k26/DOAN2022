@@ -1,0 +1,25 @@
+.add_stacker_type-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 55px;
+}
+
+.add_stacker_type .list-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+}
+
+.add_stacker_type .textarea {
+  margin: 0;
+}
+
+.add_stacker_type .tt {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+}
+/*# sourceMappingURL=AddStackerType.css.map */

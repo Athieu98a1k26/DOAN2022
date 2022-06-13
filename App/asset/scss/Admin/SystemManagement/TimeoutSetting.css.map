@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACK,AAAD,wBAAS,CAAC;EACN,KAAK,EAAE,MAAM;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAWjC;;AAVI,AAAD,6BAAM,EACL,8BAAM,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;CAKjC;;AATA,AAKG,6BALE,CAKF,KAAK,EAJR,8BAAM,CAIH,KAAK,CAAC;EACF,SAAS,EAAE,IAAI;EACf,YAAY,EAAE,IAAI;CACrB",
+    "sources": [
+        "TimeoutSetting.scss"
+    ],
+    "names": [],
+    "file": "TimeoutSetting.css"
+}

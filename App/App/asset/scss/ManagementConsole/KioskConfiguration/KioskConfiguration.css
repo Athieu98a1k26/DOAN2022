@@ -1,0 +1,123 @@
+.kiosk_configuration-status {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 20.28%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kiosk_configuration-status .icon {
+  width: 36px;
+  height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.kiosk_configuration-status .icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.kiosk_configuration-status .text {
+  margin-left: 17px;
+  font-size: 40px;
+}
+
+.kiosk_configuration-content {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 28.77%;
+  width: 79.73%;
+  height: 63.65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.kiosk_configuration-content-left {
+  border-radius: 12px;
+  width: 63.37%;
+  background-color: #3c3e43;
+  padding: 38px 0 52px 52px;
+}
+
+.kiosk_configuration-content-left .text {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.kiosk_configuration-content-left .description {
+  padding-top: 10px;
+  font-weight: 400 !important;
+}
+
+.kiosk_configuration-content-left .detail {
+  font-weight: 700;
+}
+
+.kiosk_configuration-content-left .table {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.kiosk_configuration-content-left .table-left {
+  width: 500px;
+}
+
+.kiosk_configuration-content-left .table ul {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.kiosk_configuration-content-left .table ul li:last-child {
+  margin-top: 9px;
+  font-weight: 700;
+}
+
+.kiosk_configuration-content-right {
+  width: calc(100% - 63.37% - 23px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 26px;
+}
+
+.kiosk_configuration-content-right button {
+  height: 100%;
+  font-size: 24px;
+  font-weight: 600;
+  width: 100%;
+  border-radius: 12px;
+  background-color: white;
+}
+/*# sourceMappingURL=KioskConfiguration.css.map */

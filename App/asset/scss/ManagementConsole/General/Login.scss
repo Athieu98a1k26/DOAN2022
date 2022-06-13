@@ -1,0 +1,66 @@
+@import "../../variable";
+.login_manegement_console {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25.49%;
+    width: 39.17%;
+    height: 43.27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &-input {
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 11px;
+            label {
+                font-size: 24px;
+                font-weight: 500;
+                margin-bottom: 12px;
+            }
+            input {
+                width: 100%;
+                height: 69px;
+                outline: none;
+                border: none;
+                padding: 0 1rem;
+                border-radius: 12px;
+                background-color: white;
+                color: black;
+                font-size: 20px;
+            }
+        }
+        &-error {
+            // position: absolute;
+            // top: 55.57%;
+            // left: 2.56%;
+            color: white;
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }
+    &-button {
+        button {
+            width: 100%;
+            height: 69px;
+            padding: 0 1rem;
+            border-radius: 12px;
+            background-color: white;
+            color: $backgroundColorHeader;
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }
+    .err {
+        input {
+            background-color: #fde5e5;
+            border: 3px solid #ffafaf;
+        }
+    }
+}
+
+.manegementEL {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,48 @@
+.payment_mode_option-content-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 83.83%;
+}
+
+.payment_mode_option-content-options .checkbox {
+  min-width: 110px;
+  margin-bottom: 20px;
+}
+
+.payment_mode_option-content-stacker table th {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.payment_mode_option-content-stacker table td {
+  height: 50px;
+}
+
+.payment_mode_option .btn-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+}
+
+.payment_mode_option .btn-add .title-box {
+  margin: 0;
+}
+
+.payment_mode_option .btn-add button {
+  margin-left: 5rem;
+}
+
+.payment_mode_option .btn-add-new {
+  padding: 10px 25px;
+  border-radius: 8px !important;
+  font-size: 16px;
+}
+/*# sourceMappingURL=PaymentModeOptions.css.map */

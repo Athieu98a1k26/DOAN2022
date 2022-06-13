@@ -1,0 +1,75 @@
+.show-modal-cancel {
+  display: block !important;
+}
+
+.modal_cancel {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 10;
+}
+
+.modal_cancel .blur {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  z-index: 20;
+}
+
+.modal_cancel-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 30;
+  background-color: white;
+  width: 41.67%;
+  padding: 23px 57px 32.5px 48.3px;
+  border-radius: 15px;
+}
+
+.modal_cancel-content-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.modal_cancel-content-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-bottom: 41px;
+  margin-top: 43px;
+  font-size: 14px;
+}
+
+.modal_cancel-content-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.modal_cancel-content-button .btn-no .button-admin {
+  background-color: white;
+  color: #c31d36;
+}
+
+.modal_cancel-content-button .btn-yes .button-admin {
+  border-radius: 3px !important;
+}
+/*# sourceMappingURL=ModalCancel.css.map */

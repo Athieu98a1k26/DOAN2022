@@ -1,0 +1,50 @@
+.cash_machine {
+    width: 81.04%;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 26.96%;
+    &-title {
+        display: flex;
+        width: 22.68%;
+        flex-direction: column;
+        gap: 20px;
+        margin-right: 29px;
+        button {
+            height: 102px;
+            font-size: 24px;
+            font-weight: 500;
+        }
+        .active {
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+        }
+    }
+    &-content {
+        .header {
+            font-size: 34px !important;
+        }
+        .content {
+            &-title {
+                font-size: 24px !important;
+                margin-bottom: 10px !important;
+            }
+            table {
+                th {
+                    font-size: 24px;
+                }
+                td {
+                    font-size: 24px;
+                    line-height: 40px;
+                }
+            }
+        }
+        width: calc(100% - 22.68% - 29px);
+    }
+}
+
+.check_cash_machine_status-left .content ul li:first-child {
+    font-size: 24px !important;
+}

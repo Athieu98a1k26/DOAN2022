@@ -1,0 +1,28 @@
+@import "../../variable";
+.checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    .box {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(247, 245, 245, 100%);
+        border: 1px solid #ebebeb;
+        border-radius: $borderRadiusCheckBoxAdmin;
+        svg {
+            width: 24.32px;
+            height: 18.14px;
+        }
+    }
+    .label {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .label-left {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,33 @@
+.dropdown_content-header {
+  font-size: 18px;
+  cursor: pointer;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dropdown_content-header svg {
+  margin-left: 23px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.dropdown_content .rotate svg {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.dropdown_content-body {
+  margin-top: 21px;
+  height: auto;
+  overflow: hidden;
+  margin-left: 30px;
+}
+
+.dropdown_content .hident {
+  height: 0 !important;
+}
+/*# sourceMappingURL=DropdownContent.css.map */

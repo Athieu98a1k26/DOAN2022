@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACK,AAAD,sBAAU,CAAC;EACP,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,IAAI;EACT,SAAS,EAAE,IAAI;CAClB;;AACA,AAAD,kBAAM,CAAC;EACH,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,IAAI;CACZ;;AATL,AAUI,aAVS,CAUT,SAAS,CAAC;EACN,SAAS,EAAE,GAAG;CAIjB;;AAfL,AAYQ,aAZK,CAUT,SAAS,CAEL,SAAS,CAAC;EACN,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "KioskManagementHome.scss"
+    ],
+    "names": [],
+    "file": "KioskManagementHome.css"
+}

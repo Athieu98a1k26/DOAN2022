@@ -1,0 +1,204 @@
+.kiosk_settlement {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 24.73%;
+  width: 64.35%;
+  min-height: 63.88%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.kiosk_settlement-left {
+  width: 51.2%;
+  min-height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.kiosk_settlement-left .header {
+  font-size: 34px;
+  font-weight: 600;
+  height: 86px;
+  background-color: #707070;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding-left: 29px;
+}
+
+.kiosk_settlement-left .content {
+  padding-top: 41px;
+  padding-left: 29px;
+  padding-right: 29px;
+  padding-bottom: 40px;
+  background-color: #3c3e43;
+  position: relative;
+  min-height: calc(100% - 86px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 18px;
+}
+
+.kiosk_settlement-left .content ul li {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+}
+
+.kiosk_settlement-left .content ul li:first-child {
+  padding-top: 0;
+}
+
+.kiosk_settlement-left .content ul li .number {
+  width: 27px;
+  height: 27px;
+  background-color: white;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  margin-right: 20px;
+}
+
+.kiosk_settlement-left .content ul li .text {
+  font-weight: 500;
+  color: white;
+}
+
+.kiosk_settlement-left .content hr {
+  width: 100%;
+  border-bottom: none;
+  background-color: rgba(128, 128, 128, 0.226);
+  margin: 0.7rem 0;
+}
+
+.kiosk_settlement-left .content > .text {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.kiosk_settlement-left .content-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 24px;
+}
+
+.kiosk_settlement-left .content-top-right {
+  text-align: right;
+}
+
+.kiosk_settlement-left .content-top div {
+  padding: 0.1rem 0;
+}
+
+.kiosk_settlement-left .content-top .settlement_id {
+  margin-top: 2.1rem;
+}
+
+.kiosk_settlement-left .content-mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 24px;
+}
+
+.kiosk_settlement-left .content-mid div {
+  padding: 0.1rem 0;
+}
+
+.kiosk_settlement-left .content-mid-totals {
+  text-align: right;
+}
+
+.kiosk_settlement-left .content-mid .bold {
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.kiosk_settlement-left .content-bot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 24px;
+}
+
+.kiosk_settlement-left .content-bot .total {
+  width: 111px;
+  font-weight: 500;
+}
+
+.kiosk_settlement .breakdown {
+  min-height: 105%;
+}
+
+.kiosk_settlement-right {
+  width: 45.97%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 26px;
+}
+
+.kiosk_settlement-right button {
+  width: 100%;
+  background-color: white;
+  height: 217px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.kiosk_settlement-right .hide-btn {
+  height: 378px;
+  background: transparent;
+  color: white;
+  cursor: default;
+}
+
+.kiosk_settlement-right .btnBlack {
+  background-color: #4f5054;
+  color: #989898;
+}
+/*# sourceMappingURL=KioskSettlement.css.map */

@@ -1,0 +1,59 @@
+@import "../../variable";
+.tabs_col {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    // height: 358px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 24px;
+    .tab_pane_col {
+        display: flex;
+        height: 100%;
+        &-title {
+            width: 12.19%;
+            height: 100%;
+            background-color: white;
+            box-shadow: $boxShadownBoxAdmin;
+            padding-top: calc(63px - 16px);
+            ul {
+                padding: 0;
+                li {
+                    height: 33px;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 7px;
+                    cursor: pointer;
+                }
+                .title-active {
+                    background-color: #fee6cb;
+                    color: #fd9538;
+                }
+            }
+        }
+        &-content {
+            padding: 26px 27px;
+            .content {
+                width: 495px;
+            }
+            .tab-col {
+                display: none;
+            }
+            .tab-active {
+                display: block;
+            }
+        }
+    }
+    .btn-cancel {
+        button {
+            border: 1px solid $backgroundColorHeader;
+            color: $backgroundColorHeader;
+            background-color: white;
+        }
+    }
+    .btn-save {
+        position: absolute;
+        top: 22px;
+        right: 186px;
+    }
+}

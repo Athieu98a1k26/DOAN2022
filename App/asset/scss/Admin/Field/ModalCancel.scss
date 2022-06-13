@@ -1,0 +1,63 @@
+@import "../../variable";
+.show-modal-cancel {
+    display: block !important;
+}
+
+.modal_cancel {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 10;
+    .blur {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        height: 100vh;
+        z-index: 20;
+    }
+    &-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 30;
+        background-color: white;
+        width: 41.67%;
+        padding: 23px 57px 32.5px 48.3px;
+        border-radius: 15px;
+        &-title {
+            font-size: 25px;
+            font-weight: bold;
+        }
+        &-text {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 41px;
+            margin-top: 43px;
+            font-size: 14px;
+        }
+        &-button {
+            display: flex;
+            justify-content: flex-end;
+            .btn-no {
+                .button-admin {
+                    background-color: white;
+                    color: $backgroundColorHeader;
+                }
+            }
+            .btn-yes {
+                .button-admin {
+                    border-radius: 3px !important;
+                }
+            }
+        }
+    }
+}

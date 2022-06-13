@@ -1,0 +1,58 @@
+.release_lock_status {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.release_lock_status .header {
+  font-size: 34px;
+  font-weight: 600;
+  height: 86px;
+  background-color: #707070;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding-left: 29px;
+}
+
+.release_lock_status .content {
+  padding-top: 41px;
+  padding-left: 29px;
+  padding-right: 29px;
+  background-color: #3c3e43;
+  height: 100%;
+  position: relative;
+  height: 381px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+}
+
+.release_lock_status .content ul li {
+  padding: 20px;
+  font-size: 24px;
+}
+
+.release_lock_status .content ul li:first-child {
+  padding-top: 0;
+}
+
+.release_lock_status .content-title {
+  margin-right: 450px;
+}
+
+.release_lock_status .content-value {
+  color: #d2fa12;
+}
+
+.release_lock_status .content-value ul li {
+  font-size: 24px;
+}
+/*# sourceMappingURL=ReleaseLockStatus.css.map */

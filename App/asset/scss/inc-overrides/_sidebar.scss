@@ -1,0 +1,12 @@
+.sidebar {
+    top: $header-height;
+    z-index: 20;
+    padding: 1rem;
+    bottom: 0;
+    height: auto;
+
+    &.sidebar-right {
+        left: auto;
+        right: 0;
+    }
+}

@@ -1,0 +1,10 @@
+.user_edit .button-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user_edit .button-user button {
+  border-radius: 3px !important;
+}
+/*# sourceMappingURL=UserEdit.css.map */

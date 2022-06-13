@@ -1,0 +1,82 @@
+@import "../../variable";
+.form_edit_levy {
+    position: relative;
+    padding: 20px calc(52px - 26px) 20px calc(52px - 26px);
+    margin-bottom: 20px;
+    .blur1 {
+        height: 100px !important;
+        background-color: $backgroundColorDashboard !important;
+        position: absolute !important;
+        height: 606px !important;
+        top: 0 !important;
+        width: calc(100% + 27px + 27px) !important;
+        left: -27px !important;
+        z-index: -10;
+    }
+    &-options {
+        position: relative;
+        display: flex;
+        width: 100%;
+        gap: 30px;
+        flex-wrap: wrap;
+        .title {
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+        .input {
+            input {
+                width: 100%;
+            }
+        }
+        .period {
+            display: flex;
+            width: 192.66px;
+            gap: 5px;
+            .select_admin-display {
+                font-size: 13.91px !important;
+            }
+        }
+        .name {
+            width: 131.65px;
+            input {
+                font-size: 13.91px !important;
+            }
+        }
+        .price {
+            width: 69.55px;
+            input {
+                font-size: 13.91px !important;
+            }
+        }
+        .status {
+            width: 100px;
+            display: flex;
+            align-items: flex-start;
+            .select_admin-display {
+                font-size: 13.91px !important;
+            }
+        }
+        .datetime {
+            width: 120%;
+            .date-picker {
+                .date-toggle {
+                    background-color: white;
+                }
+            }
+        }
+        .scheduled {
+            display: flex;
+            gap: 5px;
+            .select_admin-display {
+                font-size: 13.91px !important;
+            }
+            input {
+                width: 80.67px;
+                font-size: 13.91px;
+            }
+        }
+    }
+    &-content {
+        padding-bottom: 2rem;
+    }
+}

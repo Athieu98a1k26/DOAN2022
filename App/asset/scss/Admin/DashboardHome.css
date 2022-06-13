@@ -1,0 +1,234 @@
+.realtime_home {
+  padding: 27px 31px;
+  height: 644px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.realtime_home-left {
+  width: 27.98%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.realtime_home-left-top-title {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.realtime_home-left-top-infor .box {
+  height: 76.05px;
+  margin-bottom: 39.8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.realtime_home-left-top-infor .box-arrow {
+  width: 76.05px;
+  height: inherit;
+  background-color: #f7f5f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 9px;
+}
+
+.realtime_home-left-top-infor .box-arrow svg {
+  width: 33.06px;
+  height: 40.57px;
+}
+
+.realtime_home-left-top-infor .box-detail {
+  margin-left: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.realtime_home-left-top-infor .box-detail-number {
+  font-size: 60px;
+  font-weight: bold;
+  height: 72%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.realtime_home-left-top-infor .box-detail-text {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.realtime_home-left-bot button {
+  width: 100%;
+  height: 50.68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.realtime_home-right {
+  width: calc(100% - 303px);
+  overflow: auto;
+}
+
+.realtime_home-right::-webkit-scrollbar {
+  display: none;
+}
+
+.kiosk_transaction_home table {
+  font-size: 12px;
+}
+
+.kiosk_transaction_home table th {
+  text-align: left;
+  font-weight: 600;
+}
+
+.kiosk_transaction_home table tr {
+  height: 40px;
+}
+
+.table_admin {
+  width: 100%;
+  margin-left: 50px !important;
+  border-collapse: collapse;
+}
+
+.table_admin th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: #fff;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.table_admin tr {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.24);
+  padding: 0;
+  height: 42px;
+}
+
+.table_admin tr svg {
+  margin-right: 5px;
+}
+
+.table_admin tr u {
+  cursor: pointer;
+}
+
+.table_admin .td-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.table_admin .table_id {
+  cursor: pointer;
+}
+
+.table_admin .table_id:hover {
+  color: #808080;
+}
+
+.table_admin .table_id svg {
+  margin-left: 5px;
+}
+
+.admin-color-green {
+  color: #2ab13e;
+}
+
+.admin-color-green svg path {
+  fill: #2ab13e;
+}
+
+.admin-color-oranger {
+  color: #f29500;
+}
+
+.admin-color-oranger svg path {
+  fill: #f29500;
+}
+
+.admin-color-red {
+  color: #c31d36;
+}
+
+.admin-color-red svg path {
+  fill: #c31d36;
+}
+
+.title-box {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title-box .icon {
+  margin-left: 17px;
+}
+
+.title-box b {
+  font-weight: 600;
+}
+
+.title-box i {
+  font-weight: 400 !important;
+  font-style: normal;
+}
+
+.title-box .list_kiosks_title {
+  display: inline;
+  font-weight: 400;
+  font-size: 14px;
+}
+/*# sourceMappingURL=DashboardHome.css.map */

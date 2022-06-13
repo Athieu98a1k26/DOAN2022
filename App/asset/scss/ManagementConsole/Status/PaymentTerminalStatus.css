@@ -1,0 +1,159 @@
+.payment_terminal_status-title {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 22.32%;
+  font-size: 40px;
+}
+
+.payment_terminal_status-title .icon {
+  width: 36px;
+  height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.payment_terminal_status-title .icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.payment_terminal_status-title .text {
+  margin-left: 17px;
+  margin-right: 35px;
+}
+
+.payment_terminal_status-title .reset {
+  width: 58px;
+  height: 53px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.payment_terminal_status-select {
+  position: absolute;
+  top: 27.75%;
+  left: 10.33%;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+
+.payment_terminal_status-content {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 32.61%;
+  width: 77.09%;
+  height: 38.74%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 29px;
+}
+
+.payment_terminal_status-content-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 23.84%;
+}
+
+.payment_terminal_status-content-left button {
+  border-radius: 12px;
+  background-color: white;
+  height: 29.83%;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.payment_terminal_status-content-left .active {
+  background-color: transparent !important;
+  border: 1px solid white;
+  color: white;
+}
+
+.payment_terminal_status-content-right {
+  width: calc(100% - 23.84% - 29px);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.payment_terminal_status-content-right .header {
+  font-size: 40px;
+  font-weight: 600;
+  height: 86px;
+  background-color: #707070;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding-left: 29px;
+}
+
+.payment_terminal_status-content-right .content {
+  padding-top: 41px;
+  padding-left: 29px;
+  padding-right: 29px;
+  background-color: #3c3e43;
+  position: relative;
+  height: calc(100% - 86px);
+  font-size: 24px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.payment_terminal_status-button {
+  position: absolute;
+  top: 73.62%;
+  left: 69.55%;
+  width: 18.38%;
+  height: 11.56%;
+}
+
+.payment_terminal_status-button button {
+  background-color: white;
+  font-size: 24px;
+  font-weight: 600;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+/*# sourceMappingURL=PaymentTerminalStatus.css.map */

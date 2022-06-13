@@ -1,0 +1,89 @@
+.check_cash_machine_status {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    &-left {
+        width: calc(100% - 54.09%);
+        border-radius: 12px;
+        overflow: hidden;
+        .header {
+            font-size: 34px;
+            font-weight: 600;
+        }
+        .content {
+            display: flex;
+            font-size: 18px;
+            ul {
+                li {
+                    padding: 10px;
+                    &:first-child {
+                        padding-top: 0;
+                    }
+                }
+            }
+            &-title {
+                margin-right: 60px;
+            }
+            &-value {
+                color: #d2fa12;
+            }
+        }
+    }
+    .content {
+        padding-top: 41px;
+        padding-left: 29px;
+        background-color: #3c3e43;
+        height: 100%;
+    }
+    &-right {
+        width: 54.09%;
+        border-radius: 12px;
+        overflow: hidden;
+        .header {
+            font-size: 18px;
+            font-weight: 600;
+            .pin {
+                display: flex;
+                gap: 3px;
+                margin-left: 20px;
+            }
+        }
+        .content {
+            &-title {
+                font-size: 16.67px;
+                font-weight: 500;
+                margin-bottom: 28px;
+            }
+            &-table {
+                th {
+                    text-align: left;
+                }
+                hr {
+                    margin: 20px 0;
+                    width: calc(100% - 41px);
+                    border-bottom: none;
+                    background-color: gray;
+                }
+                padding-bottom: 30px;
+                table {
+                    th {
+                        &:nth-child(1) {
+                            width: 200px;
+                        }
+                        &:nth-child(2) {
+                            width: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header {
+        height: 86px;
+        background-color: #707070;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-left: 29px;
+    }
+}

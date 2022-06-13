@@ -1,0 +1,120 @@
+.table_pagination {
+  position: relative;
+}
+
+.table_pagination .gray {
+  color: gray;
+}
+
+.ant-pagination {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 100;
+}
+
+.ant-pagination-options {
+  display: none !important;
+}
+
+.ant-pagination-item {
+  min-width: 25px !important;
+  height: 25px !important;
+  line-height: 25px !important;
+  border-radius: 5px !important;
+  border: none !important;
+}
+
+.ant-pagination-item a:hover {
+  color: black !important;
+}
+
+.ant-pagination-item-active {
+  background-color: #c31d36 !important;
+}
+
+.ant-pagination-item-active a {
+  color: white !important;
+}
+
+.ant-pagination-item-active a:hover {
+  color: white !important;
+}
+
+.ant-pagination-disabled .ant-pagination-item-link,
+.ant-pagination-disabled:hover .ant-pagination-item-link,
+.ant-pagination-disabled:focus-visible .ant-pagination-item-link {
+  cursor: default !important;
+}
+
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link {
+  border: none !important;
+}
+
+.ant-pagination-prev .ant-pagination-item-link:hover,
+.ant-pagination-next .ant-pagination-item-link:hover {
+  color: black !important;
+}
+
+.pagination_admin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pagination_admin-prev {
+  cursor: pointer;
+}
+
+.pagination_admin-prev svg {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.pagination_admin-content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0.5rem;
+}
+
+.pagination_admin-content ul li {
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.pagination_admin-content ul .active {
+  background-color: #c31d36;
+  color: white;
+}
+
+.pagination_admin-next {
+  cursor: pointer;
+}
+
+.pagination_admin-next svg {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+/*# sourceMappingURL=Pagination.css.map */

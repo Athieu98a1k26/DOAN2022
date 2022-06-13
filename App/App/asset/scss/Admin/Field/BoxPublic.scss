@@ -1,0 +1,22 @@
+.box-public {
+    background-color: white;
+    border-radius: $borderRadiusBoxAdmin;
+    box-shadow: $boxShadownBoxAdmin;
+    margin-bottom: 35px !important;
+    // padding: 33px 3.09% 0 3.09%;
+    position: relative;
+    &:last-child {
+        margin-bottom: 0px;
+    }
+    .message_notification {
+        position: absolute;
+        right: 15%;
+        font-size: 16px;
+        font-weight: 600;
+        color: green;
+        display: none;
+    }
+    .active {
+        display: block;
+    }
+}

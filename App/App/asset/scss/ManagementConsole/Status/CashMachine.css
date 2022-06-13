@@ -1,0 +1,63 @@
+.cash_machine {
+  width: 81.04%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 26.96%;
+}
+
+.cash_machine-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 22.68%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  margin-right: 29px;
+}
+
+.cash_machine-title button {
+  height: 102px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.cash_machine-title .active {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.cash_machine-content {
+  width: calc(100% - 22.68% - 29px);
+}
+
+.cash_machine-content .header {
+  font-size: 34px !important;
+}
+
+.cash_machine-content .content-title {
+  font-size: 24px !important;
+  margin-bottom: 10px !important;
+}
+
+.cash_machine-content .content table th {
+  font-size: 24px;
+}
+
+.cash_machine-content .content table td {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.check_cash_machine_status-left .content ul li:first-child {
+  font-size: 24px !important;
+}
+/*# sourceMappingURL=CashMachine.css.map */

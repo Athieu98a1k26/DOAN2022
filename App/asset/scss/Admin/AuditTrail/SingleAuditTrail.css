@@ -1,0 +1,213 @@
+.section_audit .container {
+  width: 100% !important;
+}
+
+.section_audit .container h2 {
+  font-size: 25px;
+  line-height: 29px;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+
+.section_audit .container .link_back {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 5px;
+          column-gap: 5px;
+}
+
+.section_audit .container .box_audit {
+  background-color: #fff;
+  padding: 30px 25px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  margin-top: 22px;
+  position: relative;
+}
+
+.section_audit .container .box_audit .click_pre {
+  position: absolute;
+  top: 50%;
+  left: -2.2%;
+  -webkit-transform: rotate(180deg) scale(1.5);
+          transform: rotate(180deg) scale(1.5);
+}
+
+.section_audit .container .box_audit .click_next {
+  position: absolute;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  top: 50%;
+  right: -2.2%;
+}
+
+.section_audit .container .box_audit ul.list_items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-row-gap: 13px;
+  margin-bottom: 45px;
+  width: 90%;
+}
+
+.section_audit .container .box_audit ul.list_items li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section_audit .container .box_audit ul.list_items li h3 {
+  min-width: 135px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+.section_audit .container .box_audit ul.list_items li p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.section_audit .container .box_audit > h4 {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+
+.section_audit .container .box_audit .box_description {
+  border: 0.2px solid #d1d1d1;
+  padding: 23px 40px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-column-gap: 45px;
+  margin-bottom: 79px;
+}
+
+.section_audit .container .box_audit .box_description .colum h4 {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+.section_audit .container .box_audit .box_description .colum .list_colums {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 12px;
+}
+
+.section_audit .container .box_audit .box_description .colum .list_colums ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 12px;
+  margin: 0;
+}
+
+.section_audit .container .box_audit .box_description .colum .list_colums ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section_audit .container .box_audit .box_description .colum .list_colums ul li h3 {
+  min-width: 180px;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.032em;
+  font-weight: 600;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.section_audit .container .box_audit .box_description .colum .list_colums ul li p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.032em;
+  font-weight: 400;
+}
+
+.section_audit .container .box_audit .box_description .colum .list_colums ul .pink {
+  background-color: #ffe8e9;
+  height: 50px;
+}
+
+.section_audit .container .box_audit .box_description .colum .list_colums ul .blue {
+  background-color: #e4ffe7;
+  height: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+  .section_audit .container {
+    width: 100% !important;
+  }
+  .section_audit .container h2 {
+    font-size: 22px;
+  }
+  .section_audit .container .link_back {
+    font-size: 12px;
+  }
+  .section_audit .container .link_back img {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  .section_audit .container .box_audit ul.list_items {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .section_audit .container .box_audit ul.list_items li h3 {
+    font-size: 12px;
+  }
+  .section_audit .container .box_audit ul.list_items li p {
+    font-size: 12px;
+  }
+  .section_audit .container .box_audit .box_description {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding: 23px 20px;
+    grid-row-gap: 20px;
+  }
+  .section_audit .container .box_audit .box_description .colum h4 {
+    margin: 0;
+  }
+  .section_audit .container .box_audit .box_description .colum .list_colums ul li h3,
+  .section_audit .container .box_audit .box_description .colum .list_colums ul li p {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=SingleAuditTrail.css.map */

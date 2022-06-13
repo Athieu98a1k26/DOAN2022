@@ -1,0 +1,17 @@
+@import "../../variable";
+.input_number_small {
+    width: 67px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: $backgroundColorDashboard;
+    outline: none;
+    border: 1px solid #ebebeb;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #54617a;
+    &::-webkit-inner-spin-button,
+    &::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+    }
+}

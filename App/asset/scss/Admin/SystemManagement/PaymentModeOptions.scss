@@ -1,0 +1,41 @@
+.payment_mode_option {
+    &-content {
+        &-options {
+            display: flex;
+            flex-wrap: wrap;
+            width: 83.83%;
+            .checkbox {
+                min-width: 110px;
+                margin-bottom: 20px;
+            }
+        }
+        &-stacker {
+            table {
+                th {
+                    text-align: left;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+                td {
+                    height: 50px;
+                }
+            }
+        }
+    }
+    .btn-add {
+        display: flex;
+        align-items: center;
+        .title-box {
+            margin: 0;
+        }
+        button {
+            margin-left: 5rem;
+        }
+        margin-bottom: 1rem;
+    }
+    .btn-add-new {
+        padding: 10px 25px;
+        border-radius: 8px !important;
+        font-size: 16px;
+    }
+}

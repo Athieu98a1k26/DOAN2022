@@ -1,0 +1,25 @@
+.card-header {
+    background-color: transparent;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+
+    &>.actions {
+        position: absolute;
+        right: 5px;
+        z-index: 2;
+        top: 10px;
+    }
+
+    .card-title {
+        margin-bottom: 0;
+    }
+
+    .card-subtitle {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.card-body {
+    padding: 1.3rem;
+}

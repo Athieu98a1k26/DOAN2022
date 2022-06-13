@@ -1,0 +1,52 @@
+.test_cash_deposit {
+    border-radius: 12px;
+    overflow: hidden;
+    .header {
+        font-size: 34px;
+        font-weight: 600;
+        height: 86px;
+        background-color: #707070;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-left: 29px;
+    }
+    .content {
+        padding-top: 41px;
+        padding-left: 29px;
+        padding-right: 29px;
+        background-color: #3c3e43;
+        height: 100%;
+        position: relative;
+        height: 381px;
+        &-title {
+            font-size: 16.67px;
+            font-weight: 500;
+            margin-bottom: 28px;
+        }
+        &-button {
+            display: flex;
+            gap: 30px;
+            button {
+                width: 500px;
+                height: 102px;
+                background-color: transparent;
+                border: 1px solid white;
+                font-size: 24px;
+                color: white;
+            }
+            .active {
+                border: 6px solid white !important;
+            }
+        }
+        .btn-default {
+            position: absolute;
+            right: 28px;
+            bottom: 40px;
+            height: 80px;
+            width: 273px;
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }
+}

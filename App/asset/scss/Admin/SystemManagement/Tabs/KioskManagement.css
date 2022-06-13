@@ -1,0 +1,28 @@
+.kiosk_management-option-select-all {
+  font-size: 14px;
+  color: #c31d36;
+  margin-bottom: 18px;
+}
+
+.kiosk_management-option-select-all u {
+  cursor: pointer;
+}
+
+.kiosk_management-option-select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.kiosk_management-option-select .select-chilrend {
+  margin-left: 25px;
+}
+
+.kiosk_management-option-select-left {
+  width: 80.41%;
+}
+
+.kiosk_management-option-select-right {
+  width: calc(100% - 80.41%);
+}
+/*# sourceMappingURL=KioskManagement.css.map */

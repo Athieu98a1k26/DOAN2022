@@ -1,0 +1,42 @@
+.checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.checkbox .box {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f7f5f5;
+  border: 1px solid #ebebeb;
+  border-radius: 6px;
+}
+
+.checkbox .box svg {
+  width: 24.32px;
+  height: 18.14px;
+}
+
+.checkbox .label {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.checkbox .label-left {
+  margin-right: 10px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=CheckBox.css.map */

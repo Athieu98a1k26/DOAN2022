@@ -1,0 +1,46 @@
+.input_admin {
+    position: relative;
+    .input-admin {
+        height: 40px;
+        border-radius: 6px;
+        background-color: $backgroundColorDashboard;
+        outline: none;
+        border: 1px solid #ebebeb;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #54617a;
+    }
+    .real_only {
+        cursor: pointer;
+        background-color: red;
+    }
+    .input-admin-light {
+        height: 40px;
+        border-radius: 6px;
+        background-color: white;
+        outline: none;
+        border: 1px solid $backgroundColorDashboard;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #54617a;
+    }
+    .icon_input_admin_select {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        width: 9px;
+        height: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg {
+            width: inherit;
+            height: inherit;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.timeout_setting {
+    &-content {
+        width: 73.14%;
+        display: flex;
+        justify-content: space-between;
+        &-left,
+        &-right {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .text {
+                font-size: 14px;
+                margin-right: 2rem;
+            }
+        }
+    }
+}

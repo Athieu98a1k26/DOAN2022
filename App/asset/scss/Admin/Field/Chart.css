@@ -1,0 +1,63 @@
+.chartjs {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.chartjs-box {
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 5fr 1fr;
+      grid-template-rows: 5fr 1fr;
+}
+
+.chartjs-box .item-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chartjs-box .item-column .chart-column {
+  width: 70%;
+}
+
+.chartjs-box .item-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chartjs-box .vertical {
+  position: absolute;
+  font-size: 11.67px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.chartjs-title {
+  height: 7%;
+  font-size: 11.67px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+/*# sourceMappingURL=Chart.css.map */

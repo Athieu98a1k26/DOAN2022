@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEK,AAAD,mCAAmB,CAAC;EAChB,SAAS,EAAE,IAAI;EACf,KAAK,ECCW,OAAO;EDAvB,aAAa,EAAE,IAAI;CAItB;;AAPA,AAIG,mCAJe,CAIf,CAAC,CAAC;EACE,MAAM,EAAE,OAAO;CAClB;;AAEJ,AAAD,+BAAe,CAAC;EACZ,OAAO,EAAE,IAAI;CAUhB;;AAXA,AAEG,+BAFW,CAEX,gBAAgB,CAAC;EACb,WAAW,EAAE,IAAI;CACpB;;AACA,AAAD,oCAAM,CAAC;EACH,KAAK,EAAE,MAAM;CAChB;;AACA,AAAD,qCAAO,CAAC;EACJ,KAAK,EAAE,mBAAmB;CAC7B",
+    "sources": [
+        "KioskManagement.scss",
+        "../../../_variable.scss"
+    ],
+    "names": [],
+    "file": "KioskManagement.css"
+}

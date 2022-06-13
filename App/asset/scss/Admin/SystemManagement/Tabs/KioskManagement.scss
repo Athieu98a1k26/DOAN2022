@@ -1,0 +1,23 @@
+@import "../../../variable";
+.kiosk_management {
+    &-option-select-all {
+        font-size: 14px;
+        color: $backgroundColorHeader;
+        margin-bottom: 18px;
+        u {
+            cursor: pointer;
+        }
+    }
+    &-option-select {
+        display: flex;
+        .select-chilrend {
+            margin-left: 25px;
+        }
+        &-left {
+            width: 80.41%;
+        }
+        &-right {
+            width: calc(100% - 80.41%);
+        }
+    }
+}

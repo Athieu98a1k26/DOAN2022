@@ -1,0 +1,99 @@
+.modal_management {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: none;
+}
+
+.modal_management-content {
+  padding: 66px 51px 66px 51px;
+  background-color: white;
+  width: 60.69%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: black;
+  font-size: 24px;
+}
+
+.modal_management-content-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal_management-content-title .icon {
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+
+.modal_management-content-title .icon svg {
+  width: inherit;
+  height: inherit;
+}
+
+.modal_management-content-title .icon svg path {
+  fill: #c31d36;
+}
+
+.modal_management-content-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 20px 0 25px 0;
+}
+
+.modal_management-content-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 54px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.modal_management-content-button button {
+  height: 100%;
+  width: 17.98%;
+  font-size: 20px;
+}
+
+.modal_management-content-button .btn-outline {
+  background-color: white;
+  border: 1px solid #c31d36;
+  color: #c31d36;
+}
+
+.show_modal_management {
+  display: block;
+}
+/*# sourceMappingURL=ModalManagement.css.map */

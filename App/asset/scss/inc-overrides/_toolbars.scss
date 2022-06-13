@@ -1,0 +1,13 @@
+.toolbar .actions .btn {
+    padding: 1px 6px;
+}
+
+.toolbar--inner {
+    border-bottom: none;
+}
+
+.card .toolbar--inner {
+    border-bottom: 1px solid #f6f6f6;
+    margin-bottom: 1rem;
+    border-radius: $border-radius $border-radius 0 0;
+}

@@ -1,0 +1,110 @@
+@import "../../variable";
+.status_home {
+    &-title {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 14.27%;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    &-title-small {
+        font-size: 30px !important;
+    }
+    &-status {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20.28%;
+        display: flex;
+        align-items: center;
+        width: 15.65%;
+        &-icon {
+            width: 36px;
+            height: 36px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border-radius: 50%;
+            svg {
+                width: 26px;
+                height: 26px;
+            }
+        }
+        &-text {
+            font-size: 40px;
+            font-weight: 600;
+            margin-right: 35px;
+            margin-left: 17px;
+        }
+        // &-button {
+        //     button {
+        //         width: 58px;
+        //         height: 53px;
+        //         display: flex;
+        //         justify-content: center;
+        //         align-items: center;
+        //         background-color: white;
+        //         border-radius: 13px;
+        //         svg {
+        //             width: 22.57px;
+        //             height: 22.57px;
+        //         }
+        //     }
+        // }
+    }
+    &-box {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 59.23%;
+        height: 44.9%;
+        top: 36.58%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        button {
+            width: 31.15%;
+            height: 45.45%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            .box {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height: 57.65%;
+                .icon-status {
+                    width: 19.43px;
+                    height: 19.43px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    svg {
+                        width: inherit;
+                        height: inherit;
+                    }
+                }
+                .icon-btn {
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    svg {
+                        width: 90px !important;
+                    }
+                }
+                .text-btn {
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: #3c3e43;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    .form-component {
+        position: relative;
+        display: flex;
+        align-items: center;
+        .form-title {
+            font-size: 14px;
+        }
+        .form-input {
+            width: 100%;
+        }
+    }
+}

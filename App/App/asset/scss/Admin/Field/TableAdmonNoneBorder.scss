@@ -1,0 +1,60 @@
+@import "../../variable";
+.table_admin_none_border {
+    position: relative;
+    th {
+        text-align: left;
+        font-size: 14px !important;
+        font-weight: 600;
+        height: 30px;
+        p {
+            padding: 0;
+        }
+    }
+    hr {
+        position: absolute;
+    }
+    .total {
+        height: 70px;
+        td {
+            &:first-child {
+                font-weight: 700;
+            }
+        }
+    }
+    tr {
+        height: 40px;
+        td {
+            .date {
+                width: 152px;
+            }
+            cursor: default;
+            font-size: 14px;
+            u {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.table_admin_none_border_scroll_row {
+    position: relative;
+    overflow: hidden;
+    overflow-x: auto;
+    &::-webkit-scrollbar {
+        height: 7px;
+        background-color: $backgroundScrollLayout;
+        border-radius: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: $backgroundScroll;
+    }
+    table {
+        th {
+            font-size: 14px !important;
+        }
+        td {
+            font-size: 14px !important;
+        }
+    }
+}

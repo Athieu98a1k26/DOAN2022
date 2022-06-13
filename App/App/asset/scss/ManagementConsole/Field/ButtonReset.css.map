@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,aAAa,EAAE,IAAI;EACnB,gBAAgB,EAAE,KAAK;EACvB,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "ButtonReset.scss"
+    ],
+    "names": [],
+    "file": "ButtonReset.css"
+}

@@ -1,0 +1,40 @@
+.tabs_row .tab_pane_row-title ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 29px;
+  position: relative;
+}
+
+.tabs_row .tab_pane_row-title ul li {
+  text-transform: uppercase;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.tabs_row .tab_pane_row-title ul li .title-box {
+  padding: 0 0.2rem;
+}
+
+.tabs_row .tab_pane_row-title ul li .title-box p {
+  font-size: 11px;
+  padding: 0;
+  margin: 0;
+}
+
+.tabs_row .tab_pane_row-title ul .title-active .title-box p {
+  text-shadow: 0 0 0.65px #333, 0 0 0.65px #333;
+}
+
+.tabs_row .tab_pane_row-content .tab-row {
+  display: none;
+}
+
+.tabs_row .tab_pane_row-content .tab-active {
+  display: block;
+}
+/*# sourceMappingURL=TabRow.css.map */

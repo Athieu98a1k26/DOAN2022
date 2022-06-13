@@ -1,0 +1,112 @@
+@import "./variable";
+.payment {
+    position: relative;
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    &-body {
+        position: absolute;
+        top: 35.23%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90.56%;
+        height: 49.04%;
+        display: flex;
+        justify-content: space-between;
+        &-total {
+            border-radius: $borderRadius;
+            width: 32.7%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color: $backgroundBodyFailed;
+            justify-content: space-between;
+            &-content {
+                padding: 35px 45px 0 45px;
+                display: flex;
+                justify-content: space-between;
+                border-radius: $borderRadius;
+                font-size: 24px;
+                &-name {}
+                &-money {
+                    font-weight: bold;
+                }
+            }
+            &-btn {
+                height: 19.18%;
+                button {
+                    box-sizing: border-box;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0 45px;
+                    font-size: 24px;
+                    border-top-left-radius: 0 !important;
+                    border-top-right-radius: 0 !important;
+                    &-title {}
+                    &-sum {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+        &-select {
+            width: 56.1%;
+            height: 100%;
+            border-radius: $borderRadius;
+            background-color: $backgroundBodyFailed;
+            padding: 23px 41px 38px 41px;
+            position: relative;
+            &-title {
+                display: flex;
+                font-size: 24px;
+                font-weight: 600;
+                .icon {
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 15px;
+                    svg {
+                        width: inherit;
+                        height: inherit;
+                    }
+                }
+            }
+            &-content {
+                margin-top: 36px;
+                display: flex;
+                flex-wrap: wrap;
+                width: 88.37%;
+                height: 70.21%;
+                position: absolute;
+                justify-content: space-between;
+                align-content: space-between;
+                // row-gap: 26px;
+                &-card {
+                    width: 30.09%;
+                    border-radius: $borderRadius;
+                    background-color: white;
+                    height: 45.73%;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 3% 0;
+                    &-img {
+                        width: 34.6%;
+                        height: 46.05%;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: contain;
+                        }
+                    }
+                    &-title {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

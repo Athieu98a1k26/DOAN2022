@@ -1,0 +1,110 @@
+.check_cash_machine_status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.check_cash_machine_status-left {
+  width: calc(100% - 54.09%);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.check_cash_machine_status-left .header {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.check_cash_machine_status-left .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+}
+
+.check_cash_machine_status-left .content ul li {
+  padding: 10px;
+}
+
+.check_cash_machine_status-left .content ul li:first-child {
+  padding-top: 0;
+}
+
+.check_cash_machine_status-left .content-title {
+  margin-right: 60px;
+}
+
+.check_cash_machine_status-left .content-value {
+  color: #d2fa12;
+}
+
+.check_cash_machine_status .content {
+  padding-top: 41px;
+  padding-left: 29px;
+  background-color: #3c3e43;
+  height: 100%;
+}
+
+.check_cash_machine_status-right {
+  width: 54.09%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.check_cash_machine_status-right .header {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.check_cash_machine_status-right .header .pin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3px;
+  margin-left: 20px;
+}
+
+.check_cash_machine_status-right .content-title {
+  font-size: 16.67px;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+.check_cash_machine_status-right .content-table {
+  padding-bottom: 30px;
+}
+
+.check_cash_machine_status-right .content-table th {
+  text-align: left;
+}
+
+.check_cash_machine_status-right .content-table hr {
+  margin: 20px 0;
+  width: calc(100% - 41px);
+  border-bottom: none;
+  background-color: gray;
+}
+
+.check_cash_machine_status-right .content-table table th:nth-child(1) {
+  width: 200px;
+}
+
+.check_cash_machine_status-right .content-table table th:nth-child(2) {
+  width: 200px;
+}
+
+.check_cash_machine_status .header {
+  height: 86px;
+  background-color: #707070;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding-left: 29px;
+}
+/*# sourceMappingURL=CheckCashMachineStatus.css.map */

@@ -1,0 +1,17 @@
+.kiosk_config {
+    &-checkbox {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    &-form {
+        display: flex;
+        gap: 30px;
+    }
+    .flex_gap {
+        max-width: 80%;
+        .checkbox {
+            width: 150px;
+        }
+    }
+}

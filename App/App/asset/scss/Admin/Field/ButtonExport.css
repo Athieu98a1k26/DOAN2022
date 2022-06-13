@@ -1,0 +1,43 @@
+.button_export {
+  position: absolute;
+  top: 22px;
+  right: 30px;
+}
+
+.button_export button {
+  width: 106px;
+  height: 39px;
+  border-radius: 8px !important;
+  font-size: 16px;
+}
+
+.button_export-content {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  background-color: #f7f5f5;
+  width: 144px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.button_export-content li {
+  margin-bottom: 10px;
+}
+
+.button_export-content li:last-child {
+  margin: 0;
+}
+
+.button_export-content::after {
+  content: "";
+  width: 8px;
+  height: 7px;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background-color: #f7f5f5;
+  position: absolute;
+  top: -7px;
+  right: 20px;
+}
+/*# sourceMappingURL=ButtonExport.css.map */

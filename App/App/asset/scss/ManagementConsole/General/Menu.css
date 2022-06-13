@@ -1,0 +1,48 @@
+.menu_management-title {
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 18.46%;
+}
+
+.menu_management-box {
+  position: absolute;
+  left: 50%;
+  top: 32.62%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 64.57%;
+  height: 41.45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 26px;
+}
+
+.menu_management-box-top, .menu_management-box-bot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 28px;
+  height: 100%;
+  width: 100%;
+}
+
+.menu_management-box-top button, .menu_management-box-bot button {
+  width: 100%;
+  font-size: 24px;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}
+/*# sourceMappingURL=Menu.css.map */

@@ -1,0 +1,15 @@
+.downstream_systems {
+    &-content {
+        display: flex;
+        gap: 64px;
+        &-connection {
+            .button-connection {
+                display: flex;
+                button {
+                    border-radius: 3px !important;
+                }
+            }
+        }
+        &-mapping {}
+    }
+}

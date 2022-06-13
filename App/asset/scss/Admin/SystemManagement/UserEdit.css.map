@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,UADM,CACN,YAAY,CAAC;EACT,OAAO,EAAE,IAAI;CAIhB;;AANL,AAGQ,UAHE,CACN,YAAY,CAER,MAAM,CAAC;EACH,aAAa,EAAE,cAAc;CAChC",
+    "sources": [
+        "UserEdit.scss"
+    ],
+    "names": [],
+    "file": "UserEdit.css"
+}

@@ -1,0 +1,17 @@
+.downstream_systems-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 64px;
+}
+
+.downstream_systems-content-connection .button-connection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.downstream_systems-content-connection .button-connection button {
+  border-radius: 3px !important;
+}
+/*# sourceMappingURL=DownstreamSystems.css.map */

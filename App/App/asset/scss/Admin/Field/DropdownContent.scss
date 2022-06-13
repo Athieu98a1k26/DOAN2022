@@ -1,0 +1,27 @@
+.dropdown_content {
+    &-header {
+        font-size: 18px;
+        cursor: pointer;
+        display: inline-block;
+        align-items: center;
+        svg {
+            margin-left: 23px;
+            transition: 0.2s;
+            transform: rotate(0deg);
+        }
+    }
+    .rotate {
+        svg {
+            transform: rotate(90deg);
+        }
+    }
+    &-body {
+        margin-top: 21px;
+        height: auto;
+        overflow: hidden;
+        margin-left: 30px;
+    }
+    .hident {
+        height: 0 !important;
+    }
+}

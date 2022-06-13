@@ -1,0 +1,35 @@
+.chartjs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    &-box {
+        height: 100%;
+        display: grid;
+        grid-template-rows: 5fr 1fr;
+        .item-column {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            .chart-column {
+                width: 70%;
+            }
+        }
+        .item-title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .vertical {
+            position: absolute;
+            font-size: 11.67px;
+            transform: rotate(-90deg);
+        }
+    }
+    &-title {
+        height: 7%;
+        font-size: 11.67px;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+}

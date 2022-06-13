@@ -1,0 +1,53 @@
+@import "../../variable";
+.table_management {
+    height: 100%;
+    &-table {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-bottom-right-radius: 0;
+        &-header {
+            position: absolute;
+            width: 100%;
+            height: 76px;
+            color: white;
+            background-color: #3c3e43;
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: 600;
+            padding: 0 calc(2% + 15px) 0 2%;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            p {
+                padding: 0;
+                margin: 0;
+            }
+        }
+        &-content {
+            margin-top: 76px;
+            overflow-y: auto;
+            height: calc(100% - 76px);
+            color: #3c3e43;
+            background-color: white;
+            font-size: 24px;
+            &::-webkit-scrollbar {
+                position: absolute;
+                width: 15px;
+                background-color: $backgroundScrollLayout;
+                border-radius: 10px;
+            }
+            &::-webkit-scrollbar-thumb {
+                position: absolute !important;
+                top: -100px !important;
+                border-radius: 10px;
+                background-color: $backgroundScroll;
+            }
+            .row {
+                padding: 24px 2%;
+                display: flex;
+                font-size: 20px;
+            }
+        }
+    }
+}

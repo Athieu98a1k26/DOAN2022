@@ -1,0 +1,91 @@
+.audit_trail {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 24.69%;
+  width: 90.56%;
+  height: 69.31%;
+}
+
+.audit_trail-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: -10.22%;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.audit_trail-title .text {
+  margin-right: 15px;
+}
+
+.audit_trail-title .filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.audit_trail-title .filter .input {
+  width: 396px;
+}
+
+.audit_trail-title .activity_type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 50px;
+}
+
+.audit_trail-title .activity_type .input {
+  width: 200px;
+}
+
+.audit_trail-title .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.audit_trail-title .user .input {
+  width: 200px;
+}
+
+.audit_trail-content {
+  height: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.audit_trail-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.audit_trail-filter .text_title {
+  font-size: 24px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=AuditTrail.css.map */

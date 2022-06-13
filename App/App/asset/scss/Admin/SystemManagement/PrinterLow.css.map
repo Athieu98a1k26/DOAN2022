@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACK,AAAD,oBAAS,CAAC;EACN,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,IAAI;CAQZ;;AANI,AACG,yBADE,CACF,iBAAiB,CAAC;EACd,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,IAAI;CACZ;;AATb,AAYI,YAZQ,CAYR,cAAc,CAAC;EACX,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CAKtB;;AAnBL,AAeQ,YAfI,CAYR,cAAc,CAGV,YAAY,CAAC;EACT,KAAK,EAAE,eAAe;EACtB,YAAY,EAAE,eAAe;CAChC",
+    "sources": [
+        "PrinterLow.scss"
+    ],
+    "names": [],
+    "file": "PrinterLow.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACK,AAAD,2BAAS,CAAC;EACN,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,IAAI;CAUZ;;AATI,AACG,sCADQ,CACR,kBAAkB,CAAC;EACf,OAAO,EAAE,IAAI;CAIhB;;AANJ,AAGO,sCAHI,CACR,kBAAkB,CAEd,MAAM,CAAC;EACH,aAAa,EAAE,cAAc;CAChC",
+    "sources": [
+        "DownstreamSystems.scss"
+    ],
+    "names": [],
+    "file": "DownstreamSystems.css"
+}

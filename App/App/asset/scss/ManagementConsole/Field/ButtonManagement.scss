@@ -1,0 +1,43 @@
+@import "../../variable";
+.button_management {
+    button {
+        position: absolute;
+        width: 11.79%;
+        height: 6.01%;
+        border-radius: 13px;
+        font-size: 20px;
+        color: $backgroundColorHeader;
+        font-weight: 500;
+        z-index: 100;
+    }
+    &_bot_left {
+        position: absolute;
+        bottom: 6.23%;
+        left: 4.69%;
+        background-color: white;
+    }
+    &_outline {
+        border: 3px solid white;
+        background-color: transparent !important;
+        color: white !important;
+        font-size: 20px;
+    }
+    &_top_right {
+        position: absolute;
+        top: 4.42%;
+        right: 4.69%;
+        background-color: white;
+    }
+    &_top_right2 {
+        position: absolute;
+        right: 17.79%;
+        top: 4.42%;
+        background-color: white;
+    }
+    &_top_left {
+        position: absolute;
+        left: 4.69%;
+        top: 15.52%;
+        background-color: white;
+    }
+}
