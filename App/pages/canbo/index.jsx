@@ -15,7 +15,7 @@ const App = () => {
             getgo: state.getgo,
             edit: false,
             ngaySinh: new Date(),
-            namHoc: new Date()
+            namHoc: new Date(),
         })
         setIsModalVisible(true);
     };
@@ -64,6 +64,7 @@ const App = () => {
             api.suagiangvien(dd).then(d => {
                 console.log(d, "đ")
                 message.success("Sửa thành công")
+                ClearFieldsInput();
                 setIsModalVisible(false);
                 api.getDetail({ canbo: true, pageSize: 50 }).then(dd => {
                     setState({ ...state, data: dd.list, total: dd.total, edit: false })
@@ -96,7 +97,9 @@ const App = () => {
             api.sendgiangvien(dd).then(d => {
                 console.log(d, "đ")
                 message.success("Thêm thành công")
+                ClearFieldsInput();
                 setIsModalVisible(false);
+               
                 api.getDetail({ canbo: true, pageSize: 50 }).then(dd => {
                     setState({ ...state, data: dd.list, total: dd.total, edit: false })
                 })
@@ -106,10 +109,7 @@ const App = () => {
             })
         }
     };
-
-    const handleCancel = () => {
-        setIsModalVisible(false);
-    };
+    
 
 
     const handleChangeDaoTao = (value) => {
@@ -197,6 +197,12 @@ const App = () => {
             title: 'Đánh giá',
             dataIndex: 'nghiepvu',
             key: 'nghiepvu',
+        },
+        
+        {
+            title: 'Khóa đào tạo',
+            dataIndex: 'khoaDaoTao',
+            key: 'khoaDaoTao',
         },
         {
             title: 'Phòng ban',
@@ -324,11 +330,21 @@ const App = () => {
         nhiemvu: x.nhiemVu?.tenNhiemVu,
         phongban: x.tblPhongBan?.tenPhongBan,
         ghichu: x.ghiChu,
-        id: x.id
+        id: x.id,
+        khoaDaoTao:x.khoaDaoTao
 
     })
     )
+    const ClearFieldsInput=()=>{
+        form.resetFields()
+         
+    }
 
+    const handleCancel = () => {
+        
+        setIsModalVisible(false);
+    };
+    const [form] = Form.useForm();
     return (
         <div className='content' style={{
             //  maxWidth: 1200, 
@@ -352,6 +368,7 @@ const App = () => {
                 onOk={() => handleOk(state.edit)}
                 onCancel={handleCancel}>
                 <Form
+                    form = {form}
                     name="basic"
                     labelCol={{ span: 8 }}
                     wrapperCol={{ span: 16 }}
@@ -365,7 +382,7 @@ const App = () => {
                         name="ten"
                         rules={[{ required: true, message: 'Nhập tên cán bộ!' }]}
                     >
-                        <Input defaultValue={state?.tenGiangVien} name="tenGiangVien" onChange={onChange} />
+                        <Input value={state?.tenGiangVien} name="tenGiangVien" onChange={onChange} />
                     </Form.Item>
 
                     <Form.Item
@@ -373,7 +390,7 @@ const App = () => {
                         name="gioitinh"
                         rules={[{ required: true, message: 'Nhập giới tính!' }]}
                     >
-                        <Input defaultValue={state?.gioiTinh} name="gioiTinh" onChange={onChange} />
+                        <Input value={state?.gioiTinh} name="gioiTinh" onChange={onChange} />
                     </Form.Item>
 
                     <Form.Item
@@ -381,13 +398,13 @@ const App = () => {
                         name="chucvu"
                         rules={[{ required: true, message: 'Nhập chức vụ!' }]}
                     >
-                        <Input defaultValue={state?.chucVu} name="chucVu" onChange={onChange} />
+                        <Input value={state?.chucVu} name="chucVu" onChange={onChange} />
                     </Form.Item>
                     <Form.Item
                         label="Biên chế"
                         name="bienche"
                     >
-                        <Checkbox defaultValue={state?.bienChe ? true : false} name="bienChe" onChange={onChange}></Checkbox>
+                        <Checkbox value={state?.bienChe ? true : false} name="bienChe" onChange={onChange}></Checkbox>
 
                     </Form.Item>
 
@@ -397,7 +414,7 @@ const App = () => {
                         name="detai"
                         rules={[{ required: true, message: 'Số đề tài!' }]}
                     >
-                        <Input defaultValue={state?.soDeTai} name="soDeTai" type="number" onChange={onChange} />
+                        <Input value={state?.soDeTai} name="soDeTai" type="number" onChange={onChange} />
                     </Form.Item>
 
                     <Form.Item
@@ -405,7 +422,7 @@ const App = () => {
                         name="daotao"
                         rules={[{ required: true, message: 'Nhập khóa đào tạo!' }]}
                     >
-                        <Input defaultValue={state?.khoaDaoTao} name="khoaDaoTao" type="number" onChange={onChange} />
+                        <Input value={state?.khoaDaoTao} name="khoaDaoTao" type="number" onChange={onChange} />
                     </Form.Item>
                     <Form.Item
                         label="Năm học"
@@ -437,7 +454,7 @@ const App = () => {
                             name="khoa"
                         >
 
-                            <Select style={{ width: 120 }} defaultValue={state?.daoTaoId} onChange={handleChangeDaoTao}>
+                            <Select style={{ width: 120 }} value={state?.daoTaoId} onChange={handleChangeDaoTao}>
                                 {
                                     state.getgo?.daotao.map(x => {
                                         return (
@@ -456,7 +473,7 @@ const App = () => {
                             name="chuyenmon"
                         >
 
-                            <Select style={{ width: 120 }} defaultValue={state?.chuyenMonId} onChange={handleChangechuyenmon}>
+                            <Select style={{ width: 120 }} value={state?.chuyenMonId} onChange={handleChangechuyenmon}>
                                 {
                                     state.getgo?.chuyenmon.map(x => {
                                         return (
@@ -475,7 +492,7 @@ const App = () => {
                             name="donvi"
                         >
 
-                            <Select style={{ width: 120 }} defaultValue={state?.donViId} onChange={handleChangedonvi}>
+                            <Select style={{ width: 120 }} value={state?.donViId} onChange={handleChangedonvi}>
                                 {
                                     state.getgo?.donvi.map(x => {
                                         return (
@@ -494,7 +511,7 @@ const App = () => {
                             name="phongban"
                         >
 
-                            <Select style={{ width: 120 }} defaultValue={state?.tblPhongBanId} onChange={handleChangePhongban}>
+                            <Select style={{ width: 120 }} value={state?.tblPhongBanId} onChange={handleChangePhongban}>
                                 {
                                     state.getgo?.phongban.map(x => {
                                         return (
@@ -513,7 +530,7 @@ const App = () => {
                             name="nhiemvu"
                         >
 
-                            <Select style={{ width: 120 }} defaultValue={state?.nhiemVuId} onChange={handleChangeNhiemvu}>
+                            <Select style={{ width: 120 }} value={state?.nhiemVuId} onChange={handleChangeNhiemvu}>
                                 {
                                     state.getgo?.nhiemvu.map(x => {
                                         return (
@@ -532,7 +549,7 @@ const App = () => {
                             name="nghiepvu"
                         >
 
-                            <Select style={{ width: 120 }} defaultValue={state?.nghiepVuId} onChange={handleChangeNhhiemvu}>
+                            <Select style={{ width: 120 }} value={state?.nghiepVuId} onChange={handleChangeNhhiemvu}>
                                 {
                                     state.getgo?.nghiepvu.map(x => {
                                         return (
@@ -548,7 +565,7 @@ const App = () => {
                         label="Ghi chú"
                         name="ghichu"
                     >
-                        <Input defaultValue={state?.ghiChu} name="ghiChu" onChange={onChange} />
+                        <Input value={state?.ghiChu} name="ghiChu" onChange={onChange} />
                     </Form.Item>
                 </Form>
             </Modal>

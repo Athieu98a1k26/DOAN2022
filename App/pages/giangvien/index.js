@@ -184,6 +184,11 @@ const App = () => {
             key: 'nghiepvu',
         },
         {
+            title: 'Khóa đào tạo',
+            dataIndex: 'khoaDaoTao',
+            key: 'khoaDaoTao',
+        },
+        {
             title: 'Phòng ban',
             dataIndex: 'phongban',
             key: 'phongban',
@@ -321,8 +326,8 @@ const App = () => {
         nhiemvu: x.nhiemVu?.tenNhiemVu,
         phongban: x.tblPhongBan?.tenPhongBan,
         ghichu: x.ghiChu,
-        id: x.id
-
+        id: x.id,
+        khoaDaoTao:x.khoaDaoTao
     })
     )
 
